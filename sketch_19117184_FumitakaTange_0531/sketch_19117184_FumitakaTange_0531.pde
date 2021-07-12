@@ -33,7 +33,7 @@ void setup()
 void draw()
 {
   PImage img;
-  img = loadImage("4101C02F-A376-484E-A0B8-2296C6DF5E21.jpeg");
+  img = loadImage("data/4101C02F-A376-484E-A0B8-2296C6DF5E21.jpeg");
   img.resize(700, 400);
   background( img );
   stroke(100, 100, 20);
